@@ -1,0 +1,38 @@
+%section
+  
+  .panel.panel-default{:style=>"padding: 60px;border: 1px solid;margin: 34px;"}
+    .panel-heading 
+
+    .panel-body
+      .row
+        .input-group.col-md-6
+          %input.form-control{:placeholder => "Service or Women Cloths", :type => "text"}/
+          .input-group-append
+            %span.input-group-text
+              %i.fas.fa-search.text-grey{"aria-hidden" => "true"}
+
+            
+        .input-group.col-md-4
+          %input.form-control{:placeholder => "Locality", :type => "text"}/
+          .input-group-append
+            %span.input-group-text
+              Indore
+      
+
+  .row
+
+    .col-md-3{:style=>"border: 1px solid;margin: 0px 50px;"}
+      %p Filters
+    
+
+
+    .col-md-7{:style=>'border: 1px solid;'}
+      %h4 Serch Result
+
+      - for i in 1..10
+
+        .panel.panel-default{:style=>"padding: 60px;border: 1px solid;margin: 34px;"}
+          .panel-heading= "Store-#{i}"
+          .panel-body
+          
+      

@@ -1,0 +1,82 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+/** Navbar **/
+
+#mainNav .navbar-brand {
+  color: #fff;
+  font-weight: 600;
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link {
+	color: #fff;
+  padding: 0 1rem;
+  font-weight: 600;
+}
+
+
+/** Header Seaction **/
+
+header.masthead h1 {
+	font-size: 2.4rem;
+}
+
+header.masthead {
+	background: linear-gradient(to bottom, #21252947 0, rgba(92, 77, 66, 0.8) 100%), url(/assets/bg-masthead.jpg);
+	background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;	
+}
+
+header.masthead {
+	height: 100vh;
+}
+
+header.masthead p {
+  font-size: 1.15rem;
+}
+
+
+/** custom classes **/
+
+.text-white-75 {
+  color: rgba(255,255,255,.75);
+}
+
+.font-weight-light {
+  font-weight: 300!important;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 3rem!important;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: .85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+.btn-primary:hover, {
+  background-color: #f4623a;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f4623a;
+  border-color: #f4623a;
+}
+
+/** End **/

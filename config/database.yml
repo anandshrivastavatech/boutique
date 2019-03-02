@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: cisin123
+  timeout: 5000
+
+development:
+  <<: *default
+  database: boutique_development
+
+test:
+  <<: *default
+  database: boutique_test
+
+production:
+  <<: *default
+  database: boutique_production
+
+
